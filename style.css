@@ -8,7 +8,7 @@ src: local('SEGA LOGO FONT'), url('SEGA.woff') format('woff');
 
 h1{
   font-family: 'SEGA LOGO FONT';
-  font-weight:20%;
+  font-weight:5fr;
   color:red
 }
 
@@ -17,7 +17,8 @@ body {
   background: #100000; 
   padding-top: 1%; 
   font-size:0; 
-  margin-bottom: 3rem; 
+  margin-bottom: 1%; 
+  padding-bottom: 1%
   overflow: hidden; 
 }
 figure#spinner { 
@@ -28,7 +29,7 @@ figure#spinner {
 } 
 figure#spinner img { 
   width: 40%; max-width: 425px; 
-  position: absolute; left: 30%;
+  position: relative; left: 30%;
   transform-origin: 50% 50% -500px;
   outline:1px solid transparent; 
 }
