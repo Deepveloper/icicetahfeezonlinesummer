@@ -29,7 +29,7 @@ figure#spinner {
 } 
 figure#spinner img { 
   width: 40%; max-width: 425px; 
-  position: relative; left: 30%;
+  position: absolute; left: 30%;
   transform-origin: 50% 50% -500px;
   outline:1px solid transparent; 
 }
